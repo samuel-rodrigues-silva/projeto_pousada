@@ -1,0 +1,139 @@
+
+body{
+    padding: 100px;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+body input,button {
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 20px;
+}
+
+form{
+    margin-top: 20px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+#card{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px;
+    padding: 10px;
+}
+
+#card label{
+    padding: 5px;
+    margin:10px
+}
+
+#card input {
+    margin: 5px;
+}
+
+form input[type="text"]{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+}
+
+form input[type="date"]{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+}
+
+form select{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+}
+
+form input[type="number"]{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+}
+
+form input[type="submit"]{
+    width: 100%;
+    border: none;
+    height: 8%;
+    border-radius: 30px;
+    background-color: green;
+    color:white
+}
+
+form option{
+    font-family: 'Montserrat', sans-serif;
+}
+
+form .radioCheck{
+    display:inline-block
+}
+#btnToggle{
+    display: flex;
+}
+#room{
+ width: 50%;
+ border: none; 
+ background: #8f6558;
+ height: 50px;
+ color: white;
+}
+
+#client{
+    width: 50%;
+    border: none;
+    background: #5066c6;
+    margin: 0;
+    color: white;
+}
+#booking{
+    width: 50%;
+    border: none;
+    background: #4F4F4F;
+    margin: 0;
+    color: white;
+}
+
+#btnRoomList{
+    float: right;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background: #8f6558;
+    margin-right: 5px;
+}
+
+#btnRoomList a , #btnClientList a, #btnBookingList a{
+    text-decoration: none;
+    color: white;
+}
+
+#btnClientList{
+    float: right;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background: #5066c6;
+    margin-right: 5px;
+}
+
+#btnBookingList{
+    float: right;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background: #4F4F4F;
+}
+
+

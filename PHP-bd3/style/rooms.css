@@ -1,0 +1,67 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+ margin: auto;
+ padding: 20px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+body input,button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+#main{
+    width: 100%;
+}
+
+table{
+    width: 60%;
+    margin: auto;
+}
+
+table td{
+    border: 1px solid black;
+    text-align: center;
+    min-width: 20px;
+    max-width: 20px;
+}
+
+#btnRoomList{
+    float: right;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background: #8f6558;
+    margin-right: 5px;
+}
+
+#btnRoomList a , #btnClientList a, #btnBookingList a{
+    text-decoration: none;
+    color: white;
+}
+
+#btnClientList{
+    float: right;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background: #5066c6;
+    margin-right: 5px;
+}
+
+#btnBookingList{
+    float: right;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background: #4F4F4F;
+}
