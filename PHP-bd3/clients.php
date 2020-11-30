@@ -4,7 +4,6 @@
     $query = 'select * from cliente';
 
     $result = mysqli_query($connect, $query);
-    $result = mysqli_query($connect, $query);
     
     if($result->num_rows == 0){
             echo 'EMPTY CLIENTS';

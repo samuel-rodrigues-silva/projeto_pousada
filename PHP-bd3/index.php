@@ -8,7 +8,9 @@
                 <title>Document</title>
             </head>
             <body>
+            <div id="user"><a href="./ClientApp/view.php"><button>Usuário</button></a></div>
             <div id="main">
+                
                 <div id="card">
                     <?php if(!isset($_GET['id']) && !isset($_GET['idClient']) && !isset($_GET['idBooking'])){?>
                         <div id="btnToggle">
